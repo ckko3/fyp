@@ -1,0 +1,36 @@
+body {
+  background-image: url("./images/music-rainbow.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-size: 24px;
+  text-align: center;
+  line-height: 35px;
+}
+
+div {
+  background-color: white;
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+  color: brown;
+  text-shadow: 0 1px 2px rgba(0,0,0,.1);
+  display: inline-block;
+  padding: 8px;
+  border: blue solid 5px;
+}
+
+h1 {
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+  text-align: center;
+	color: #40E0D0;
+  font-size: 40px;
+	font-weight: 700;
+	text-shadow:0 1px 4px rgba(0,0,0,.2);
+}
+
+.confidential {
+  font-size:80%;
+  color:black;
+}
