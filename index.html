@@ -4,6 +4,7 @@
       <title>Welcome to this Survey!</title>
       <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
       <link rel="stylesheet" type="text/css" href="./style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
       <script src="./script.js"></script>
       <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -17,26 +18,29 @@
                   </script>
     </head>
 
-    <body onload="load();">
+    <body>
 
-		<div>
+		<div id="intro">
       <h1>Online Recommendation System</h1>
 			<hr />
 			<p>
         <b>
           We are conducting a FYP survey on Song Recommendation System.<br />
           This survey aims at capturing your feedback for analysis.<br />
-          Please click <button onclick="go();">HERE</button> to complete the survey.<br />
+          Please click <button>HERE</button> to complete the survey.<br />
           Thanks so much for your help :)
         </b>
       </p>
-			<p class="confidential">
+			<p id="confidential">
         <em>
           *Your personal information will be kept strictly confidential*
         </em>
       </p>
     </div>
-    <iframe src="https://docs.google.com/forms/d/1d55jTgBUKSym-JThGJcd827Fvds0n37i4uiTK28cJ8I/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+
+    <div id="survey">
+      <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+    </div>
 
     </body>
 </html>

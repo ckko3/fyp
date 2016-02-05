@@ -1,3 +1,10 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
   background-image: url("./images/music-rainbow.jpg");
   background-size: cover;
@@ -11,16 +18,6 @@ body {
   line-height: 35px;
 }
 
-div {
-  background-color: white;
-  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-  color: brown;
-  text-shadow: 0 1px 2px rgba(0,0,0,.1);
-  display: inline-block;
-  padding: 8px;
-  border: blue solid 5px;
-}
-
 h1 {
   font-family: 'PT Sans', Helvetica, Arial, sans-serif;
   text-align: center;
@@ -30,7 +27,23 @@ h1 {
 	text-shadow:0 1px 4px rgba(0,0,0,.2);
 }
 
-.confidential {
-  font-size:80%;
-  color:black;
+#intro {
+  background-color: white;
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+  color: brown;
+  text-shadow: 0 1px 2px rgba(0,0,0,.1);
+  display: inline-block;
+  padding: 8px;
+  border: blue solid 5px;
+}
+
+#confidential {
+  font-size: 80%;
+  color: black;
+}
+
+#survey {
+  display: none;
+  position: absolute;
+  left: 0; right: 0; bottom: 0; top: 0;
 }
