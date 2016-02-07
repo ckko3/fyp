@@ -35,8 +35,8 @@ $(document).ready(function() {
     break;
   }
 
-  console.log(num);
-  console.log(link);
+  //console.log(num);
+  //console.log(link);
 
   $("button").click(function() {
       $("#intro").css("display", "none");
