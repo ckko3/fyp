@@ -3,6 +3,11 @@
     <head>
       <title>Online Recommendation System</title>
       <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+      <meta property="og:url"                content="http://ckko3.github.io/fyp/" />
+      <meta property="og:type"               content="website" />
+      <meta property="og:title"              content="Online Recommendation System" />
+      <meta property="og:description"        content="We are conducting a survey on Song Recommendation System." />
+      <meta property="og:image"              content="http://ckko3.github.io/fyp/images/music_rainbow.jpg" />
       <link rel="stylesheet" type="text/css" href="./style.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
       <script src="./script.js"></script>
@@ -11,12 +16,23 @@
 
     <body>
 
-		<div id="intro">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=259947700710879";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <div class="fb-share-button" data-href="http://ckko3.github.io/fyp/" data-layout="button"></div>
+    
+    <div id="intro">
       <h1>Online Recommendation System</h1>
 			<hr />
 			<p>
         <b>
-          We are conducting a FYP survey on Song Recommendation System.<br />
+          We are conducting a survey on Song Recommendation System.<br />
           This survey aims at capturing your feedback for analysis.<br />
           Please click <button>HERE</button> to complete the survey.<br />
           Thanks so much for your help :)
