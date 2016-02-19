@@ -26,9 +26,6 @@ body {
   display: inline-block;
   padding: 8px;
   border: blue solid 5px;
-  position: absolute;
-  top: 20%;
-  left: 25%;
 }
 
 #title {
@@ -47,4 +44,12 @@ body {
   display: none;
   position: absolute;
   left: 0; right: 0; bottom: 0; top: 0;
+}
+
+.container-table {
+    display: table;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
 }
