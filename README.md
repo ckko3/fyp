@@ -1,4 +1,4 @@
-# Fake Your Professor
+# Final Year Project
 
 This repo hosts the draft version of online survey for FYP - Studies on Online Recommendation System.
 
